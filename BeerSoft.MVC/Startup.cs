@@ -33,6 +33,7 @@ namespace beersoft.mvc
             });
 
             //agregando los servicios para la autenticacion
+            //vamos por otro comentarios
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddIdentityServer().AddDeveloperSigningCredential()
             .AddInMemoryApiResources(Config.GetApiResources())
