@@ -32,7 +32,7 @@ namespace beersoft.mvc
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            //agregando los servicios para la autenticacion
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddIdentityServer().AddDeveloperSigningCredential()
             .AddInMemoryApiResources(Config.GetApiResources())
