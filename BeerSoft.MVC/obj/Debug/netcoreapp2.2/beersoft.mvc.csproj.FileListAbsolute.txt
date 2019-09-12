@@ -1,0 +1,2 @@
+C:\ProyectosNetCore\IdentityServer4\beersoft.mvc\bin\Debug\netcoreapp2.2\beersoft.mvc.dll
+C:\ProyectosNetCore\IdentityServer4\beersoft.mvc\bin\Debug\netcoreapp2.2\beersoft.mvc.Views.dll
